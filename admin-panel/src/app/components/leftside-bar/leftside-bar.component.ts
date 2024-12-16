@@ -11,6 +11,13 @@ import { RouterLink } from '@angular/router';
 })
 export class LeftsideBarComponent {
 
+  showsidebar: boolean=true;
+
+clickmeCalled() {
+  this.showsidebar=!this.showsidebar;
+throw new Error('Method not implemented.');
+}
+
   // @Input() sideBar:boolean=true;
 
   // constructor(){
